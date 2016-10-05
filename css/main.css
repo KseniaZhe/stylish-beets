@@ -3,8 +3,14 @@ html {
   line-height: 1.5
 }
 
+body {
+  font-family: "PT Serif", serif;
+  color: #222;
+}
+
 h1, h2 {
   color: #3f1622;
+  font-family: "PT Sans", sans-serif;
 }
 
 a,
@@ -21,6 +27,8 @@ a:hover {
 nav ol {
   list-style-type: none;
   font-weight: bold;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.5rem;
 }
 
 figcaption {
@@ -41,11 +49,17 @@ h2 + p {
 
 aside ul {
   list-style-type: circle;
+  font-size: 0.8rem;
 }
 
 blockquote p {
   font-style: italic;
   font-weight: bold;
+  font-size: 1.5rem;
+}
+
+cite {
+  font-size: 0.8rem;
 }
 
 figure + p {
