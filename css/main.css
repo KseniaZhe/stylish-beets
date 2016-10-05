@@ -66,3 +66,7 @@ cite {
 figure + p {
   font-weight: bold;
 }
+
+img {
+  width: 100%;
+}
