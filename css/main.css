@@ -1,5 +1,6 @@
 html {
   background-color: #c9b5ab;
+  line-height: 1.5
 }
 
 h1, h2 {
@@ -19,4 +20,34 @@ a:hover {
 
 nav ol {
   list-style-type: none;
+  font-weight: bold;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+dt {
+  font-weight: bold;
+}
+
+h2 + ol li {
+  list-style-type: lower-greek;
+}
+
+h2 + p {
+  font-style: italic;
+}
+
+aside ul {
+  list-style-type: circle;
+}
+
+blockquote p {
+  font-style: italic;
+  font-weight: bold;
+}
+
+figure + p {
+  font-weight: bold;
 }
