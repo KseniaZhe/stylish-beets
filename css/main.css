@@ -5,3 +5,18 @@ html {
 h1, h2 {
   color: #3f1622;
 }
+
+a,
+a:link {
+  color: #8f2440;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
+}
+
+nav ol {
+  list-style-type: none;
+}
